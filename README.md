@@ -8,6 +8,6 @@ The purpose of this repository is to record the practical assignments from the I
 
 - HW1: Manual construction of gradient descent and Classification prediction for the MNIST dataset.(based on numpy, not pytorch)
 
-- HW2: Manually build MLP for classifying mnist data(based on numpy, not pytorch). The obtained loss decreases slowly and the accuracy is low, and the reason is still under investigation.
+- HW2: Manually build MLP for classifying mnist data(based on numpy, not pytorch). The obtained loss decreases slowly and the accuracy is low, and the reason is still under investigation.(The error has been corrected because the fc layer calculated the gradient by dividing it by N)
 
 

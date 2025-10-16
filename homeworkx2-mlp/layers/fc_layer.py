@@ -40,8 +40,8 @@ class FCLayer():
 	    # TODO: Put your code here
 		# Calculate the gradient using the later layer's gradient: delta
 		# 计算梯度
-		self.grad_W = np.dot(self.Input.T, delta) / self.Input.shape[0]  # 对W的梯度
-		self.grad_b = np.sum(delta, axis=0, keepdims=True) / self.Input.shape[0]  # 对b的梯度
+		self.grad_W = np.dot(self.Input.T, delta)  # 对W的梯度,线性层的梯度不应该在除以数据size了，否则就除重复了。
+		self.grad_b = np.sum(delta, axis=0, keepdims=True)  # 对b的梯度
 
         # 计算传递给前一层的delta
 		delta_prev = np.dot(delta, self.W.T)
