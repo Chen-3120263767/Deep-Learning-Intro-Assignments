@@ -1,5 +1,6 @@
 # Data
 MNIST_data/
+CIFAR10_data/
 
 # model.pth
 *.pth
