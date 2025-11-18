@@ -4,3 +4,7 @@ torch
 torchvision
 tensorflow
 tqdm
+glob
+scikit-learn
+pandas
+PILLOW

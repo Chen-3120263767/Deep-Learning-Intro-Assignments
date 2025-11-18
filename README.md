@@ -13,3 +13,5 @@ The purpose of this repository is to record the practical assignments from the I
 - HW2: The main content of this assignment includes: familiarizing with basic operations of torch, building a neural network from scratch using torch, and attempting to solve regression problems using neural networks.
 
 - HW3: The main content of HW3 is using CNNs for image classification. This assignment utilized two datasets, MNIST and CIFAR-10, and conducted several ablation studies on optimizers, Batch Normalization, and activation functions. Finally, ResNet was also implemented to assist with recognition. More details are covered in a report located in the HW3 folder.
+
+- HW4: The main content of Assignment 4 is to implement medical image segmentation using U-Net, with the dataset sourced from: https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation. This task also includes more training details.

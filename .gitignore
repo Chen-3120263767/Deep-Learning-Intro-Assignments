@@ -1,6 +1,10 @@
+#zip file
+*.zip
+
 # Data
 MNIST_data/
 CIFAR10_data/
+HWX3/data/
 
 # model.pth
 *.pth
