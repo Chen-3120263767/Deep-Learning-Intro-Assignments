@@ -5,6 +5,7 @@
 MNIST_data/
 CIFAR10_data/
 HWX3/data/
+HW4/data/
 
 # model.pth
 *.pth
